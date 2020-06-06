@@ -28,7 +28,11 @@ class MusicLibraryController
         list_genres
       when "list artist"
         list_artist
+<<<<<<< HEAD
       when "list genre"
+=======
+      when "list_genre"
+>>>>>>> fd133dad7f01dd41e259301b8ca0a83344b922c4
         list_genre
       when "play song"
         play_song
@@ -84,6 +88,7 @@ class MusicLibraryController
     end
     puts "Playing #{song.name} by #{song.artist.name}" if song
   end
+<<<<<<< HEAD
   
   def list_artist
     list_songs_by_artist
@@ -92,5 +97,15 @@ class MusicLibraryController
   def list_genre
     list_songs_by_genre
   end
+=======
+      
+  # def list_artist
+  #   list_songs_by_artist
+  # end
+  
+  # def list_genre
+  #   list_songs_by_genre
+  # end
+>>>>>>> fd133dad7f01dd41e259301b8ca0a83344b922c4
   
 end
